@@ -55,6 +55,7 @@ class Drink(db.Model):
             'recipe': short_recipe
         }
 
+
     '''
     long()
         long form representation of the Drink model
@@ -81,7 +82,7 @@ class Drink(db.Model):
 
     '''
     delete()
-        deletes a new model into a database
+        deletes a model from database
         the model must exist in the database
         EXAMPLE
             drink = Drink(title=req_title, recipe=req_recipe)
