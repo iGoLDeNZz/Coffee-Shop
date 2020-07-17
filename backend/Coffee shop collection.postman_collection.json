@@ -1,7 +1,7 @@
 {
 	"info": {
-		"_postman_id": "44e0812b-d247-439c-8828-be0928416717",
-		"name": "Coffee shop collection",
+		"_postman_id": "97c58f6b-b04b-483c-8a8e-56d3c1510565",
+		"name": "Coffee shop",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
@@ -14,7 +14,7 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "603f1f6e-134b-43ba-8aca-da5456119ac7",
+								"id": "63f09ae7-aac2-431a-9ce2-3cbefab92a90",
 								"exec": [
 									"pm.test(\"Status code is 200\", function () {",
 									"    pm.response.to.have.status(200);",
@@ -50,7 +50,7 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "a708ed6f-0c46-46ae-90c9-af6b3cdcea02",
+								"id": "219f094a-b7d4-4eec-85f9-23575e31ddd7",
 								"exec": [
 									"pm.test(\"Status code is 401\", function () {",
 									"    pm.response.to.have.status(401);",
@@ -81,7 +81,7 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "edbfd953-ee9c-4c6e-be92-1fab16fef555",
+								"id": "1b825912-f354-4437-b9a8-30d07bdd3739",
 								"exec": [
 									"pm.test(\"Status code is 401\", function () {",
 									"    pm.response.to.have.status(401);",
@@ -112,7 +112,7 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "c11a0b6c-2b9c-4ac3-b42e-01fd381ea145",
+								"id": "f314e617-56f9-46dc-a25b-982603951b68",
 								"exec": [
 									"pm.test(\"Status code is 401\", function () {",
 									"    pm.response.to.have.status(401);",
@@ -144,7 +144,7 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "b4cbcc66-c728-439a-a54c-ca548de48123",
+								"id": "ca70c868-834a-4a51-abd2-bfc0e0c7da4c",
 								"exec": [
 									"pm.test(\"Status code is 401\", function () {",
 									"    pm.response.to.have.status(401);",
@@ -182,7 +182,7 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "e77b2b3e-33b8-48fb-9d27-c9ed2776b5c8",
+								"id": "14395c35-d58f-4f67-9d94-211b4847a8fa",
 								"exec": [
 									"pm.test(\"Status code is 200\", function () {",
 									"    pm.response.to.have.status(200);",
@@ -218,7 +218,7 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "302c6804-e680-4814-8e03-8baf62bcc8e2",
+								"id": "3da1751a-8850-4c86-ba9b-a2ab047fe9f0",
 								"exec": [
 									"pm.test(\"Status code is 200\", function () {",
 									"    pm.response.to.have.status(200);",
@@ -249,7 +249,7 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "76cfda20-9455-4194-97c4-bb842aed09d1",
+								"id": "52eac90b-f471-4b25-afae-f9399d4fca31",
 								"exec": [
 									"pm.test(\"Status code is 401\", function () {",
 									"    pm.response.to.have.status(401);",
@@ -290,7 +290,7 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "e0b835f8-372a-4bd4-bdac-49f7cb2c8e18",
+								"id": "f94011c5-45f4-44b6-811a-952abccbbd07",
 								"exec": [
 									"pm.test(\"Status code is 401\", function () {",
 									"    pm.response.to.have.status(401);",
@@ -332,7 +332,7 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "bf7e5bb6-b1ff-454a-a819-422fd1df4fb6",
+								"id": "8a423b5b-d938-41a3-8874-70e53951f4e4",
 								"exec": [
 									"pm.test(\"Status code is 401\", function () {",
 									"    pm.response.to.have.status(401);",
@@ -373,7 +373,7 @@
 				{
 					"listen": "prerequest",
 					"script": {
-						"id": "3f7d2465-680f-437c-a351-383d768008e4",
+						"id": "30464de4-adba-46b4-8f53-1f8b1ef8d338",
 						"type": "text/javascript",
 						"exec": [
 							""
@@ -383,7 +383,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "47ee2735-37fc-4daf-8ab7-438f5cde3a6b",
+						"id": "4378232a-d285-4001-8e3b-e8055690d9f5",
 						"type": "text/javascript",
 						"exec": [
 							""
@@ -402,7 +402,7 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "a8d808cf-4593-4052-adbf-cf1e9c84c652",
+								"id": "ac2c48bd-450e-4de0-a3e4-66b0bbed7e0f",
 								"exec": [
 									"pm.test(\"Status code is 200\", function () {",
 									"    pm.response.to.have.status(200);",
@@ -460,7 +460,7 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "42b813a8-a3e6-4e47-b7fa-0cd63946b708",
+								"id": "7007fced-cb1b-4b70-a89b-1890b5a74505",
 								"exec": [
 									"pm.test(\"Status code is 200\", function () {",
 									"    pm.response.to.have.status(200);",
@@ -496,7 +496,7 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "50addb86-e645-4b75-bbb7-10ac884ae946",
+								"id": "2240b0d3-bb55-4b31-a0c3-47b043294f73",
 								"exec": [
 									"pm.test(\"Status code is 200\", function () {",
 									"    pm.response.to.have.status(200);",
@@ -548,7 +548,7 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "d604108d-ab90-4118-9646-6b48e8088d29",
+								"id": "dca1573c-af51-42c7-b215-a885a71d8f46",
 								"exec": [
 									"pm.test(\"Status code is 200\", function () {",
 									"    pm.response.to.have.status(200);",
@@ -596,7 +596,7 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "557ce40a-9335-402a-8498-f7d6de68a08d",
+								"id": "2ef1860b-955c-42bb-a7d4-b5acc9cea255",
 								"exec": [
 									"pm.test(\"Status code is 200\", function () {",
 									"    pm.response.to.have.status(200);",
@@ -637,7 +637,7 @@
 				{
 					"listen": "prerequest",
 					"script": {
-						"id": "7cc1f2b8-5b12-411a-971b-acdc86073fe2",
+						"id": "2cea1f20-f5fa-44b7-9097-3e2bcd22aa41",
 						"type": "text/javascript",
 						"exec": [
 							""
@@ -647,7 +647,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "72df72df-1012-4de3-b24d-7b3769295514",
+						"id": "03b9a5de-6ba9-43d5-be12-9ccb4b995adf",
 						"type": "text/javascript",
 						"exec": [
 							""
@@ -662,7 +662,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "3fbcee44-e386-4c10-b145-af6db2976e06",
+				"id": "eb2eefc1-b33d-4028-8cd4-3d7392109965",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -672,7 +672,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "f5ab7fe6-198c-4163-8faa-1fc65fab3232",
+				"id": "8363d17e-36b6-4764-80fd-8bb8c03594bf",
 				"type": "text/javascript",
 				"exec": [
 					""
